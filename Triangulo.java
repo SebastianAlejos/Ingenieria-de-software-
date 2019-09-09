@@ -48,7 +48,7 @@ public class Triangulo{
 
 
         Triangulo at=new Triangulo(x11,y11,x22,y22,x33,y33);
-        double area1=at.calculaArea();
+        double area1=at.area();
 
         JOptionPane.showMessageDialog(null,"El área del triángulo es "+ area1);
     }
