@@ -5,8 +5,7 @@ public class Triangulo{
                    x3,
                    y1,
                    y2,
-                   y3,
-                   area; 
+                   y3;
     
     public Triangulo(int x1, int y1, int x2, int y2, int x3, int y3){
        this.x1=x1;
@@ -18,8 +17,8 @@ public class Triangulo{
        
     }
     public double area(){
-        this.area=Math.abs((((x1*y2)+(x2*y3)+(x3*y1))-((x1*y3)+(x3*y2)+(x2*y1)))/2);
-        return this.area;
+         double area=Math.abs((((x1*y2)+(x2*y3)+(x3*y1))-((x1*y3)+(x3*y2)+(x2*y1)))/2);
+        return area;
     }
     public static void main(String[] args) {
         String x1;
