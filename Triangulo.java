@@ -16,7 +16,7 @@ public class Triangulo{
        this.y3=y3;
        
     }
-    public double CalculaArea(){
+    public double calculaArea(){
          double area=Math.abs((((x1*y2)+(x2*y3)+(x3*y1))-((x1*y3)+(x3*y2)+(x2*y1)))/2);
         return area;
     }
