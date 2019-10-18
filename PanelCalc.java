@@ -17,6 +17,7 @@ public class PanelCalc  extends JPanel implements ActionListener {
                             btn8,
                             btn9,
                             btn0,
+                            btni,
                             btnsuma,
                             btnresta,
                             btnmulti,
@@ -45,6 +46,10 @@ public class PanelCalc  extends JPanel implements ActionListener {
         this.btn9=new JButton("9");
         this.add(this.btn9);
         this.btn9.addActionListener(this);
+
+        this.btni=new JButton("i");
+        this.add(this.btni);
+        this.btni.addActionListener(this);
 
         this.btndiv=new JButton("/");
         this.add(this.btndiv);
